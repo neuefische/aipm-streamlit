@@ -1,0 +1,224 @@
+# ----------------------------
+# Virtual environments
+# ----------------------------
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# ----------------------------
+# Python cache and build artifacts
+# ----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+wheels/
+
+# ----------------------------
+# Jupyter and IPython
+# ----------------------------
+.ipynb_checkpoints/
+*.ipynb~
+.profile
+.ipython/
+
+# ----------------------------
+# Tooling and configs from AI/LS/IDE helpers
+# ----------------------------
+.mypy_cache/
+.pytype/
+.pyre/
+.dmypy.json
+.pytest_cache/
+.cache/
+ruff_cache/
+.mrconfig
+.pyright/
+.spyproject/
+.sourcery/
+.editorconfig
+
+# ----------------------------
+# Editors / IDE configs
+# ----------------------------
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+*.orig
+
+# ----------------------------
+# Coverage and reports
+# ----------------------------
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+pytestdebug.log
+
+# ----------------------------
+# Environment and secrets
+# ----------------------------
+.envrc
+*.secret
+*.token
+*.key
+*.pem
+*.crt
+*.password
+*.config   # often contains API keys
+.secrets/
+
+# ----------------------------
+# Data / temp
+# ----------------------------
+*.log
+/tmp/
+*.tmp
+*.bak
+*.lock
+*.pid
+logs/
+temp/
+cache/
+outputs/
+
+# ----------------------------
+# Model / AI artifacts
+# ----------------------------
+*.pt
+*.pth
+*.h5
+*.ckpt
+*.onnx
+*.tflite
+*.pb
+*.mlmodel
+*.bin
+*.safetensors
+*.riva
+*.engine        # TensorRT
+*.trt
+*.jit
+*.mar           # TorchServe
+*.pickle
+*.joblib
+# Local model artifacts from ML demo
+ml_api_demo/artifacts/
+ml_api_demo/artifacts/iris_labels.txt
+
+# HuggingFace / transformers
+/.cache/huggingface/
+huggingface/
+~/.cache/huggingface/
+
+# Stable Diffusion / Diffusers
+models/
+checkpoints/
+diffusers-cache/
+output_images/
+controlnet/
+
+# ----------------------------
+# Training / Experiment artifacts
+# ----------------------------
+wandb/
+mlruns/
+tensorboard/
+tb_logs/
+lightning_logs/
+ray_results/
+comet_logs/
+
+# ----------------------------
+# Local datasets and archives
+# ----------------------------
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+/data/
+datasets/
+downloads/
+raw_data/
+processed_data/
+
+# ----------------------------
+# Cloud providers & deploy tools
+# ----------------------------
+.aws/
+.gcloud/
+azure.json
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+.serverless/
+vercel.json
+
+# ----------------------------
+# AI tools & project files
+# ----------------------------
+AGENTS.md
+openai.json
+anthropic.json
+manifest.json
+tools.json
+.prompts/
+.prompt_templates/
+.prompt_registry/
+
+# VS Code
+.vscode/
+.vscode-insiders/
+
+# Cursor IDE
+.cursor/
+.cursor-dir/
+cursor-history/
+cursor-settings.json
+
+# OpenAI Codex / Copilot / AI coding tools
+.copilot/
+copilot.json
+copilot-settings.json
+copilot-history/
+
+# Github Codespaces
+.codespaces/
+*.code-workspace
+
+# JetBrains AI Assistant
+.idea/ai/
+.idea/*ai*
+
+# Tabnine
+.tabnine/
+
+# Codeium
+.codeium/
+
+# Continue.dev
+.continue/
+
+# Windsurf / Zed AI Metadata
+.zed/
+.windsurf/
+
+# WebStorm Fleet
+.fleet/
+
+# Misc AI project metadata
+.ai_config/
+.ai/
+.ai-cache/
